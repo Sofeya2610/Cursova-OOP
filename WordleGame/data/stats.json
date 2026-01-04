@@ -1,0 +1,67 @@
+{
+    "players": {
+        "BIBA": {
+            "games": 1,
+            "wins": 0,
+            "score": 0,
+            "last_difficulty": "EASY",
+            "last_attempts": 5,
+            "avg_attempts": 5.0,
+            "last_play": "2026-01-04"
+        },
+        "вів": {
+            "games": 1,
+            "wins": 1,
+            "score": 1,
+            "last_difficulty": "EASY",
+            "last_attempts": 5,
+            "avg_attempts": 5.0,
+            "last_play": "2026-01-04"
+        },
+        "Sofiasos": {
+            "games": 1,
+            "wins": 0,
+            "score": 0,
+            "last_difficulty": "EASY",
+            "last_attempts": 5,
+            "avg_attempts": 5.0,
+            "last_play": "2026-01-04"
+        },
+        "abobaam": {
+            "games": 1,
+            "wins": 1,
+            "score": 1,
+            "last_difficulty": "EASY",
+            "last_attempts": 4,
+            "avg_attempts": 4.0,
+            "last_play": "2026-01-04"
+        },
+        "lesyk2007": {
+            "games": 1,
+            "wins": 0,
+            "score": 0,
+            "last_difficulty": "EASY",
+            "last_attempts": 5,
+            "avg_attempts": 5.0,
+            "last_play": "2026-01-04"
+        },
+        "Lesyk27": {
+            "games": 2,
+            "wins": 1,
+            "score": 1,
+            "last_difficulty": "EASY",
+            "last_attempts": 5,
+            "avg_attempts": 4.5,
+            "last_play": "2026-01-04"
+        },
+        "1winlesyk": {
+            "games": 1,
+            "wins": 0,
+            "score": 0,
+            "last_difficulty": "EASY",
+            "last_attempts": 5,
+            "avg_attempts": 5.0,
+            "last_play": "2026-01-04"
+        }
+    }
+}
