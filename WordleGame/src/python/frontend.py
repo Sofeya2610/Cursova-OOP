@@ -8,7 +8,6 @@ from pathlib import Path
 
 WORD_LENGTH = 5
 MAX_ATTEMPTS = 5
-# EXE_PATH = "../build/game_logic.exe"
 EXE_PATH = str(Path(__file__).resolve().parents[2] / "build" / "game_logic.exe")
 
 BG_COLOR = "#121213"
@@ -368,7 +367,7 @@ class WordleApp:
             for c in range(WORD_LENGTH):
                 self.cells[r][c].config(text="", bg=CELL_BG)
 
-        # перевіряємо, що exe існує
+
         if not Path(EXE_PATH).exists():
             self.status_label.config(
                 text=f"C++ executable not found: {EXE_PATH}\nBuild the project to create game_logic.exe",
@@ -376,7 +375,6 @@ class WordleApp:
             )
             return
 
-        # створюємо backend з правильним шляхом і запускаємо процес
         self.backend = GameBackend(EXE_PATH)
         ok = self.backend.start_process()
         if not ok:
@@ -417,8 +415,6 @@ class WordleApp:
 
         response = self.backend.send_guess(guess)
 
-        # DEBUG: show raw backend response
-        # (debug removed) don't overwrite status label with raw backend response
 
         if "FEEDBACK" in response or "WIN" in response:
             parts = response.split()

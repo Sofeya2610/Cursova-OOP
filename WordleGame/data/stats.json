@@ -62,6 +62,15 @@
             "last_attempts": 5,
             "avg_attempts": 5.0,
             "last_play": "2026-01-04"
+        },
+        "Olexandra2": {
+            "games": 1,
+            "wins": 1,
+            "score": 1,
+            "last_difficulty": "EASY",
+            "last_attempts": 2,
+            "avg_attempts": 2.0,
+            "last_play": "2026-01-04"
         }
     }
 }
